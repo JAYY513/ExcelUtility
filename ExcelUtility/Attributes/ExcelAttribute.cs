@@ -25,7 +25,7 @@ namespace ExcelUtility.Attributes
         {
             public abstract object GetValue(object obj);
 
-            public abstract Type GetType();
+            public new abstract Type GetType();
         }
     }
 
